@@ -10,6 +10,7 @@ namespace MagicVilla_API.Datos
 
         }
         public DbSet<Villa> Villas { get; set; }   //Definimos como se va crear en la base de datos
+        public DbSet<NumeroVilla> NumeroVillas { get; set; }
 
     }
 }
